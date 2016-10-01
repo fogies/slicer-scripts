@@ -110,7 +110,7 @@ tractdbwebwatcher:
 ################################################################################
 webdub:
   # port 4000
-  build: "https://github.com/fogies/docker-jekyll-site.git"
+  build: "https://github.com/fogies/docker-jekyll-site.git#beforeRubyUpdate"
   environment:
     GIT_REPOSITORY_SITE: "https://github.com/uwdub/web-dub.git"
 
@@ -135,7 +135,7 @@ webdubwatcher:
 ################################################################################
 webdubstaging:
   # port 4000
-  build: "https://github.com/fogies/docker-jekyll-site.git"
+  build: "https://github.com/fogies/docker-jekyll-site.git#beforeRubyUpdate"
   environment:
     GIT_REPOSITORY_SITE: "https://github.com/uwdub/web-dub.git"
     GIT_REPOSITORY_SITE_BRANCH: "people"
@@ -161,7 +161,7 @@ webdubstagingwatcher:
 ################################################################################
 webduboldpapers:
   # port 4000
-  build: "https://github.com/fogies/docker-jekyll-site.git"
+  build: "https://github.com/fogies/docker-jekyll-site.git#beforeRubyUpdate"
   environment:
     GIT_REPOSITORY_SITE: "https://github.com/uwdub/web-dub-oldpapers.git"
 
