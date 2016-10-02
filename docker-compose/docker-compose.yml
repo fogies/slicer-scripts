@@ -110,7 +110,7 @@ tractdbwebwatcher:
 ################################################################################
 webdub:
   # port 4000
-  build: "https://github.com/fogies/docker-jekyll-site.git#beforeRubyUpdate"
+  build: "https://github.com/fogies/docker-jekyll-site.git"
   environment:
     GIT_REPOSITORY_SITE: "https://github.com/uwdub/web-dub.git"
 
